@@ -45,6 +45,12 @@
 <Button class="neutral-transparent-button" disabled={areButtonsDisabled}
   >Neutral Transparent Button</Button
 >
-<Button class="status-danger-button" disabled={areButtonsDisabled}
-  >Status Danger Button</Button
+<Button class="status-danger-solid-button" disabled={areButtonsDisabled}
+  >Status Danger Solid Button</Button
+>
+<Button class="status-danger-outline-button" disabled={areButtonsDisabled}
+  >Status Danger Outline Button</Button
+>
+<Button class="status-danger-transparent-button" disabled={areButtonsDisabled}
+  >Status Danger Transparent Button</Button
 >

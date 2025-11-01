@@ -62,9 +62,9 @@
   --status-warning1: #ffc527;
   --status-warning2: #d2b20d;
   --status-warning3: #ba8e14;
-  --status-danger1: var(--color-red-500);
-  --status-danger2: var(--color-red-600);
-  --status-danger3: var(--color-red-700);
+  --status-danger1: var(--color-red-600);
+  --status-danger2: var(--color-red-700);
+  --status-danger3: var(--color-red-800);
   --status-info1: var(--color-blue-400);
   --status-info2: var(--color-blue-500);
   --status-info3: var(--color-blue-600);
@@ -235,7 +235,21 @@ small,
   @apply disabled:opacity-70 disabled:text-[var(--text3)] disabled:cursor-default disabled:hover:bg-transparent disabled:active:bg-transparent disabled:hover:text-[var(--text3)] disabled:active:text-[var(--text3)];
 }
 
-.status-danger-button {
+.status-danger-solid-button {
+  @apply bg-[var(--status-danger1)] text-[var(--text-invariant)] font-bold py-2 px-4 rounded transition-colors duration-100 cursor-pointer gap-2 flex items-center;
+  @apply hover:bg-[var(--status-danger2)] hover:text-[var(--text-invariant)] hover:border-[var(--border2)];
+  @apply active:bg-[var(--status-danger3)] active:text-[var(--text-invariant)] active:border-[var(--border3)];
+  @apply disabled:opacity-70 disabled:text-[var(--text-invariant)] disabled:cursor-default disabled:hover:bg-[var(--status-danger1)] disabled:active:bg-[var(--status-danger1)];
+}
+
+.status-danger-outline-button {
+  @apply border border-[var(--status-danger1)] bg-transparent text-[var(--status-danger1)] font-bold py-2 px-4 rounded transition-colors duration-100 cursor-pointer gap-2 flex items-center;
+  @apply hover:border-[var(--status-danger2)] hover:text-[var(--status-danger2)] hover:bg-[var(--bg1)];
+  @apply active:border-[var(--status-danger3)] active:text-[var(--status-danger3)] active:bg-[var(--bg2)];
+  @apply disabled:opacity-70 disabled:text-[var(--status-danger1)] disabled:cursor-default disabled:hover:border-[var(--status-danger1)] disabled:active:border-[var(--status-danger1)] disabled:hover:text-[var(--status-danger1)] disabled:active:text-[var(--status-danger1)] disabled:hover:bg-transparent disabled:active:bg-transparent;
+}
+
+.status-danger-transparent-button {
   @apply bg-transparent text-[var(--status-danger1)] font-bold py-2 px-4 rounded transition-colors duration-100 cursor-pointer gap-2 flex items-center;
   @apply hover:bg-[var(--bg1)] hover:text-[var(--status-danger2)] hover:border-[var(--border2)];
   @apply active:bg-[var(--bg2)] active:text-[var(--status-danger3)] active:border-[var(--border3)];
