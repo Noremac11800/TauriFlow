@@ -24,7 +24,7 @@
     }}
     tabindex="0"
     onclick={() => goto(route)}
-    class="flex flex-col gap-2 border border-[var(--border1)] p-2 rounded-md hover:bg-[var(--bg1)] active:bg-[var(--bg2)] hover:border-[var(--brand2)] active:border-[var(--brand3)] transition-colors duration-200 cursor-pointer"
+    class="flex flex-col gap-2 bg-[var(--bg1)] border border-[var(--border1)] p-2 rounded-md hover:bg-[var(--bg1)] active:bg-[var(--bg2)] hover:border-[var(--brand2)] active:border-[var(--brand3)] transition-colors duration-200 cursor-pointer"
   >
     <div class="flex gap-2 items-center">
       <svelte:component
