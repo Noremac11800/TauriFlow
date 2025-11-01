@@ -122,7 +122,7 @@ body {
 body {
   padding-top: env(safe-area-inset-top);
   padding-right: env(safe-area-inset-right);
-  padding-bottom: env(safe-area-inset-bottom);
+  padding-bottom: max(var(--safe-area-inset-bottom), 20px);
   padding-left: env(safe-area-inset-left);
   box-sizing: border-box;
   height: 100vh;
