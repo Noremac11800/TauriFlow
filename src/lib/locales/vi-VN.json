@@ -101,9 +101,5 @@
     "theming": "Theo chủ đề",
     "typography": "Kiểu chữ",
     "wcag-accessibility": "Khả năng truy cập WCAG 2.1"
-  },
-  "pageTitle": {},
-  "sandbox": {
-    "i18n": {}
   }
 }

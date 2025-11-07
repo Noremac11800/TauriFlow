@@ -101,9 +101,5 @@
     "theming": "Temin",
     "typography": "Tipografi",
     "wcag-accessibility": "WCAG 2.1 Erişilebilirlik"
-  },
-  "pageTitle": {},
-  "sandbox": {
-    "i18n": {}
   }
 }

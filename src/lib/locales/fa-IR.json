@@ -101,9 +101,5 @@
     "theming": "مضمون",
     "typography": "رنگ نگاری",
     "wcag-accessibility": "دسترسی WCAG 2.1"
-  },
-  "pageTitle": {},
-  "sandbox": {
-    "i18n": {}
   }
 }

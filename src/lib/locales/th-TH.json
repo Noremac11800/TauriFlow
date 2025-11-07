@@ -101,9 +101,5 @@
     "theming": "การสร้างธีม",
     "typography": "การพิมพ์",
     "wcag-accessibility": "WCAG 2.1 การเข้าถึง"
-  },
-  "pageTitle": {},
-  "sandbox": {
-    "i18n": {}
   }
 }

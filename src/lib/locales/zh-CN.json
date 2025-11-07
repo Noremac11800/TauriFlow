@@ -101,9 +101,5 @@
     "theming": "主题",
     "typography": "排版",
     "wcag-accessibility": "WCAG 2.1可访问性"
-  },
-  "pageTitle": {},
-  "sandbox": {
-    "i18n": {}
   }
 }

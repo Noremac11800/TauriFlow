@@ -71,6 +71,12 @@
     "page.sandbox.debugging-description"
   )}
   {@render topic(
+    "page-title.iconography",
+    "/sandbox/iconography",
+    Icons.PizzaSliceOutline,
+    "page.sandbox.iconography-description"
+  )}
+  {@render topic(
     "page-title.internationalization",
     "/sandbox/internationalization",
     Icons.LanguageOutline,

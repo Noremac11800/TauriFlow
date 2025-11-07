@@ -101,9 +101,5 @@
     "theming": "Temas",
     "typography": "Tipografia",
     "wcag-accessibility": "Acessibilidade do WCAG 2.1"
-  },
-  "pageTitle": {},
-  "sandbox": {
-    "i18n": {}
   }
 }
