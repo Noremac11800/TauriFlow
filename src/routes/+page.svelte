@@ -1,6 +1,6 @@
 <script lang="ts">
   import { goto } from "$app/navigation";
-  import { Button, Checkbox } from "flowbite-svelte";
+  import { Button } from "flowbite-svelte";
   import * as Icons from "flowbite-svelte-icons";
   import { t } from "svelte-i18n";
   import LanguageSwitcher from "./sandbox/components/LanguageSwitcher.svelte";
