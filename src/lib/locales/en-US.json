@@ -51,6 +51,12 @@
         "time-medium": "Time (medium)",
         "time-short": "Time (short)"
       },
+      "iconography": {
+        "absolute-stroke-width": "Absolute stroke width",
+        "search": "Search {iconCount} icons...",
+        "size": "Size",
+        "stroke-width": "Stroke width"
+      },
       "iconography-description": "Displays a searchable library of icons available for use in the application",
       "internationalization-description": "Contains examples of the internationalization features available in the application",
       "theming": {

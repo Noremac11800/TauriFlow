@@ -51,6 +51,12 @@
         "time-medium": "زمان (متوسط)",
         "time-short": "زمان (کوتاه)"
       },
+      "iconography": {
+        "absolute-stroke-width": "عرض سکته مغزی مطلق",
+        "search": "جستجوی نمادهای {iconCount}...",
+        "size": "اندازه",
+        "stroke-width": "عرض سکته مغزی"
+      },
       "iconography-description": "یک کتابخانه قابل جستجو از نمادهای موجود برای استفاده در برنامه را نمایش می دهد",
       "internationalization-description": "شامل نمونه هایی از ویژگی های بین المللی موجود در برنامه",
       "theming": {

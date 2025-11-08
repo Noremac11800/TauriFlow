@@ -51,6 +51,12 @@
         "time-medium": "時間（媒介）",
         "time-short": "時間（短）"
       },
+      "iconography": {
+        "absolute-stroke-width": "絕對筆劃寬度",
+        "search": "搜索 {iconCount} 個圖標...",
+        "size": "尺寸",
+        "stroke-width": "筆劃寬度"
+      },
       "iconography-description": "顯示可在應用程序中使用的可搜索圖標庫",
       "internationalization-description": "包含應用程序中可用的國際化功能的示例",
       "theming": {

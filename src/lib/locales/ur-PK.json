@@ -51,6 +51,12 @@
         "time-medium": "وقت (میڈیم)",
         "time-short": "وقت (مختصر)"
       },
+      "iconography": {
+        "absolute-stroke-width": "مطلق فالج کی چوڑائی",
+        "search": "تلاش {آئکن کاؤنٹ} شبیہیں ...",
+        "size": "سائز",
+        "stroke-width": "اسٹروک کی چوڑائی"
+      },
       "iconography-description": "درخواست میں استعمال کے ل available دستیاب شبیہیں کی تلاش کے قابل لائبریری دکھاتا ہے",
       "internationalization-description": "درخواست میں دستیاب بین الاقوامی خصوصیات کی مثالوں پر مشتمل ہے",
       "theming": {

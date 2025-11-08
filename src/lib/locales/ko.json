@@ -51,6 +51,12 @@
         "time-medium": "시간 (중간)",
         "time-short": "시간 (짧은)"
       },
+      "iconography": {
+        "absolute-stroke-width": "절대 획 폭",
+        "search": "{iconCount}개 아이콘 검색...",
+        "size": "크기",
+        "stroke-width": "스트로크 폭"
+      },
       "iconography-description": "응용 프로그램에서 사용할 수 있는 검색 가능한 아이콘 라이브러리를 표시합니다.",
       "internationalization-description": "응용 프로그램에서 이용할 수있는 국제화 기능의 예가 포함",
       "theming": {

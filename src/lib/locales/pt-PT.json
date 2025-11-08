@@ -51,6 +51,12 @@
         "time-medium": "Tempo (médio)",
         "time-short": "Tempo (curto)"
       },
+      "iconography": {
+        "absolute-stroke-width": "Largura absoluta do traço",
+        "search": "Pesquisar ícones {iconCount}...",
+        "size": "Tamanho",
+        "stroke-width": "Largura do traço"
+      },
       "iconography-description": "Exibe uma biblioteca pesquisável de ícones disponíveis para uso no aplicativo",
       "internationalization-description": "Contém exemplos dos recursos de internacionalização disponíveis no aplicativo",
       "theming": {

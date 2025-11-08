@@ -51,6 +51,12 @@
         "time-medium": "Zeit (mittel)",
         "time-short": "Zeit (kurz)"
       },
+      "iconography": {
+        "absolute-stroke-width": "Absolute Strichstärke",
+        "search": "Suche nach {iconCount} Symbolen...",
+        "size": "Größe",
+        "stroke-width": "Strichbreite"
+      },
       "iconography-description": "Zeigt eine durchsuchbare Bibliothek mit Symbolen an, die zur Verwendung in der Anwendung verfügbar sind",
       "internationalization-description": "Enthält Beispiele für die in der Anwendung verfügbaren Internationalisierungsmerkmale",
       "theming": {

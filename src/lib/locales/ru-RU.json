@@ -51,6 +51,12 @@
         "time-medium": "Время (средний)",
         "time-short": "Время (короткое)"
       },
+      "iconography": {
+        "absolute-stroke-width": "Абсолютная ширина штриха",
+        "search": "Поиск значков: {iconCount}...",
+        "size": "Размер",
+        "stroke-width": "Ширина штриха"
+      },
       "iconography-description": "Отображает библиотеку значков с возможностью поиска, доступную для использования в приложении.",
       "internationalization-description": "Содержит примеры функций интернационализации, доступных в приложении",
       "theming": {

@@ -51,6 +51,12 @@
         "time-medium": "Thời gian (trung bình)",
         "time-short": "Thời gian (ngắn)"
       },
+      "iconography": {
+        "absolute-stroke-width": "Chiều rộng nét tuyệt đối",
+        "search": "Tìm kiếm biểu tượng {iconCount}...",
+        "size": "Kích cỡ",
+        "stroke-width": "Chiều rộng nét"
+      },
       "iconography-description": "Hiển thị thư viện có thể tìm kiếm các biểu tượng có sẵn để sử dụng trong ứng dụng",
       "internationalization-description": "Chứa các ví dụ về các tính năng quốc tế hóa có sẵn trong ứng dụng",
       "theming": {

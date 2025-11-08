@@ -51,6 +51,12 @@
         "time-medium": "Час (середній)",
         "time-short": "Час (короткий)"
       },
+      "iconography": {
+        "absolute-stroke-width": "Абсолютна ширина штриха",
+        "search": "Пошук {iconCount} значків...",
+        "size": "Розмір",
+        "stroke-width": "Ширина штриха"
+      },
       "iconography-description": "Відображає доступну для пошуку бібліотеку піктограм, доступних для використання в програмі",
       "internationalization-description": "Містить приклади функцій інтернаціоналізації, доступних у додатку",
       "theming": {

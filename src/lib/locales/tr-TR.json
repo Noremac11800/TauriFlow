@@ -51,6 +51,12 @@
         "time-medium": "Zaman (Orta)",
         "time-short": "Zaman (kısa)"
       },
+      "iconography": {
+        "absolute-stroke-width": "Mutlak vuruş genişliği",
+        "search": "{iconCount} simgeyi arayın...",
+        "size": "Boyut",
+        "stroke-width": "Kontur genişliği"
+      },
       "iconography-description": "Uygulamada kullanılabilecek simgelerin aranabilir bir kitaplığını görüntüler",
       "internationalization-description": "Uygulamada bulunan uluslararasılaşma özelliklerinin örneklerini içerir",
       "theming": {

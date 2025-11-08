@@ -51,6 +51,12 @@
         "time-medium": "সময় (মাঝারি)",
         "time-short": "সময় (সংক্ষিপ্ত)"
       },
+      "iconography": {
+        "absolute-stroke-width": "পরম স্ট্রোক প্রস্থ",
+        "search": "{iconCount} আইকন খুঁজুন...",
+        "size": "আকার",
+        "stroke-width": "স্ট্রোক প্রস্থ"
+      },
       "iconography-description": "অ্যাপ্লিকেশনে ব্যবহারের জন্য উপলব্ধ আইকনগুলির একটি অনুসন্ধানযোগ্য লাইব্রেরি প্রদর্শন করে৷",
       "internationalization-description": "অ্যাপ্লিকেশনটিতে উপলব্ধ আন্তর্জাতিকীকরণ বৈশিষ্ট্যগুলির উদাহরণ রয়েছে",
       "theming": {

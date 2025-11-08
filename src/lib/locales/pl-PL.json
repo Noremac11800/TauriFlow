@@ -51,6 +51,12 @@
         "time-medium": "Czas (medium)",
         "time-short": "Czas (krótki)"
       },
+      "iconography": {
+        "absolute-stroke-width": "Bezwzględna szerokość obrysu",
+        "search": "Wyszukaj ikony w liczbie {iconCount}...",
+        "size": "Rozmiar",
+        "stroke-width": "Szerokość skoku"
+      },
       "iconography-description": "Wyświetla przeszukiwalną bibliotekę ikon dostępnych do użycia w aplikacji",
       "internationalization-description": "Zawiera przykłady funkcji internacjonalizacji dostępnych w aplikacji",
       "theming": {

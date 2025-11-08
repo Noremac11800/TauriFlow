@@ -51,6 +51,12 @@
         "time-medium": "Waktu (sedang)",
         "time-short": "Waktu (pendek)"
       },
+      "iconography": {
+        "absolute-stroke-width": "Lebar goresan mutlak",
+        "search": "Telusuri ikon {iconCount}...",
+        "size": "Ukuran",
+        "stroke-width": "Lebar goresan"
+      },
       "iconography-description": "Menampilkan perpustakaan ikon yang dapat dicari dan tersedia untuk digunakan dalam aplikasi",
       "internationalization-description": "Berisi contoh fitur internasionalisasi yang tersedia dalam aplikasi",
       "theming": {

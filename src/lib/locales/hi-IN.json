@@ -51,6 +51,12 @@
         "time-medium": "समय (मध्यम)",
         "time-short": "समय (छोटा)"
       },
+      "iconography": {
+        "absolute-stroke-width": "पूर्ण स्ट्रोक चौड़ाई",
+        "search": "{iconCount} आइकन खोजें...",
+        "size": "आकार",
+        "stroke-width": "रेखा की चौड़ाई"
+      },
       "iconography-description": "एप्लिकेशन में उपयोग के लिए उपलब्ध आइकनों की खोज योग्य लाइब्रेरी प्रदर्शित करता है",
       "internationalization-description": "आवेदन में उपलब्ध अंतर्राष्ट्रीयकरण सुविधाओं के उदाहरण शामिल हैं",
       "theming": {

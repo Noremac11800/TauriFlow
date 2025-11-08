@@ -51,6 +51,12 @@
         "time-medium": "時間（中）",
         "time-short": "時間（短い）"
       },
+      "iconography": {
+        "absolute-stroke-width": "絶対ストローク幅",
+        "search": "{iconCount} 個のアイコンを検索...",
+        "size": "サイズ",
+        "stroke-width": "ストローク幅"
+      },
       "iconography-description": "アプリケーションで使用できるアイコンの検索可能なライブラリを表示します",
       "internationalization-description": "アプリケーションで利用可能な国際化機能の例が含まれています",
       "theming": {

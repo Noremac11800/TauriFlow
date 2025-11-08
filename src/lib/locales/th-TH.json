@@ -51,6 +51,12 @@
         "time-medium": "เวลา (ปานกลาง)",
         "time-short": "เวลา (สั้น)"
       },
+      "iconography": {
+        "absolute-stroke-width": "ความกว้างของเส้นขีดสัมบูรณ์",
+        "search": "ค้นหาไอคอน {iconCount}...",
+        "size": "ขนาด",
+        "stroke-width": "ความกว้างของเส้นขีด"
+      },
       "iconography-description": "แสดงไลบรารีไอคอนที่ค้นหาได้สำหรับใช้ในแอปพลิเคชัน",
       "internationalization-description": "มีตัวอย่างของคุณสมบัติสากลที่มีอยู่ในแอปพลิเคชัน",
       "theming": {

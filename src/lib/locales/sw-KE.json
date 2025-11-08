@@ -51,6 +51,12 @@
         "time-medium": "Wakati (kati)",
         "time-short": "Wakati (mfupi)"
       },
+      "iconography": {
+        "absolute-stroke-width": "Upana wa kiharusi kabisa",
+        "search": "Tafuta {iconCount} icons ...",
+        "size": "Saizi",
+        "stroke-width": "Upana wa kiharusi"
+      },
       "iconography-description": "Inaonyesha maktaba inayoweza kutafutwa ya icons zinazopatikana kwa matumizi katika programu",
       "internationalization-description": "Inayo mifano ya huduma za utandawazi zinazopatikana katika programu",
       "theming": {

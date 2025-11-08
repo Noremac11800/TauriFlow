@@ -51,6 +51,12 @@
         "time-medium": "الوقت (متوسط)",
         "time-short": "الوقت (قصير)"
       },
+      "iconography": {
+        "absolute-stroke-width": "عرض السكتة الدماغية المطلقة",
+        "search": "بحث عن أيقونات {iconCount}...",
+        "size": "مقاس",
+        "stroke-width": "عرض السكتة الدماغية"
+      },
       "iconography-description": "يعرض مكتبة قابلة للبحث من الرموز المتاحة للاستخدام في التطبيق",
       "internationalization-description": "يحتوي على أمثلة لميزات التدويل المتاحة في التطبيق",
       "theming": {
