@@ -66,7 +66,9 @@
 >
   <div class="flex flex-col">
     <p class="flex justify-between mx-6">
-      <span class="font-bold">Stroke Width</span>
+      <span class="font-bold"
+        >{$t("page.sandbox.iconography.stroke-width")}</span
+      >
       <span>{strokeWidth}px</span>
     </p>
 
@@ -87,7 +89,7 @@
   </div>
   <div class="flex flex-col">
     <p class="flex justify-between mx-6">
-      <span class="font-bold">Size</span>
+      <span class="font-bold">{$t("page.sandbox.iconography.size")}</span>
       <span>{size}px</span>
     </p>
 
@@ -107,14 +109,16 @@
     />
   </div>
   <div class="flex flex-col">
-    <span>Absolute stroke width</span>
+    <span>{$t("page.sandbox.iconography.absolute-stroke-width")}</span>
     <Toggle bind:checked={absoluteStrokeWidth} class="self-start" />
   </div>
 </div>
 
 <Input
   type="text"
-  placeholder="Search {iconEntries.length} icons..."
+  placeholder={$t("page.sandbox.iconography.search", {
+    values: { iconCount: iconEntries.length },
+  })}
   class="w-full"
   bind:value={searchQuery}
 />
