@@ -13,6 +13,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@lucide/svelte": "^0.553.0",
     "@tailwindcss/vite": "^4.1.11",
     "@tauri-apps/api": "^2",
     "@tauri-apps/plugin-fs": "^2.4.1",
@@ -40,6 +41,7 @@
     "svelte": "^5.0.0",
     "svelte-awesome-color-picker": "^4.0.2",
     "svelte-check": "^4.0.0",
+    "svelte-range-slider-pips": "^4.1.0",
     "typedoc": "^0.28.10",
     "typescript": "~5.6.2",
     "vite": "^6.0.3"
