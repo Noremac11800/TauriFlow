@@ -51,6 +51,7 @@
         "time-medium": "เวลา (ปานกลาง)",
         "time-short": "เวลา (สั้น)"
       },
+      "iconography-description": "แสดงไลบรารีไอคอนที่ค้นหาได้สำหรับใช้ในแอปพลิเคชัน",
       "internationalization-description": "มีตัวอย่างของคุณสมบัติสากลที่มีอยู่ในแอปพลิเคชัน",
       "theming": {
         "app-theme-colors": "แอปพลิเคชันธีมสี",
@@ -96,6 +97,7 @@
     "database": "ฐานข้อมูล",
     "debugging": "การดีบัก",
     "home": "บ้าน",
+    "iconography": "ยึดถือ",
     "internationalization": "i18n: สากล",
     "sandbox": "กล่องทราย",
     "theming": "การสร้างธีม",

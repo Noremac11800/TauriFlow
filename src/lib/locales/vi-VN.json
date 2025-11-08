@@ -51,6 +51,7 @@
         "time-medium": "Thời gian (trung bình)",
         "time-short": "Thời gian (ngắn)"
       },
+      "iconography-description": "Hiển thị thư viện có thể tìm kiếm các biểu tượng có sẵn để sử dụng trong ứng dụng",
       "internationalization-description": "Chứa các ví dụ về các tính năng quốc tế hóa có sẵn trong ứng dụng",
       "theming": {
         "app-theme-colors": "Màu sắc chủ đề ứng dụng",
@@ -96,6 +97,7 @@
     "database": "Cơ sở dữ liệu",
     "debugging": "Gỡ lỗi",
     "home": "Trang chủ",
+    "iconography": "Hình tượng học",
     "internationalization": "I18N: Quốc tế hóa",
     "sandbox": "Hộp cát",
     "theming": "Theo chủ đề",

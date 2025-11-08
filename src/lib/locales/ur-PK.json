@@ -51,6 +51,7 @@
         "time-medium": "وقت (میڈیم)",
         "time-short": "وقت (مختصر)"
       },
+      "iconography-description": "درخواست میں استعمال کے ل available دستیاب شبیہیں کی تلاش کے قابل لائبریری دکھاتا ہے",
       "internationalization-description": "درخواست میں دستیاب بین الاقوامی خصوصیات کی مثالوں پر مشتمل ہے",
       "theming": {
         "app-theme-colors": "ایپلی کیشن تھیم رنگ",
@@ -96,6 +97,7 @@
     "database": "ڈیٹا بیس",
     "debugging": "ڈیبگنگ",
     "home": "گھر",
+    "iconography": "شبیہہ نگاری",
     "internationalization": "I18N: عالمگیریت",
     "sandbox": "سینڈ باکس",
     "theming": "تھیمنگ",

@@ -51,6 +51,7 @@
         "time-medium": "Zaman (Orta)",
         "time-short": "Zaman (kısa)"
       },
+      "iconography-description": "Uygulamada kullanılabilecek simgelerin aranabilir bir kitaplığını görüntüler",
       "internationalization-description": "Uygulamada bulunan uluslararasılaşma özelliklerinin örneklerini içerir",
       "theming": {
         "app-theme-colors": "Uygulama Tema Renkleri",
@@ -96,6 +97,7 @@
     "database": "Veritabanı",
     "debugging": "Hata ayıklama",
     "home": "Ev",
+    "iconography": "İkonografi",
     "internationalization": "i18n: uluslararasılaşma",
     "sandbox": "Kum havuzu",
     "theming": "Temin",

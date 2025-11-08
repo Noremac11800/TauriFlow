@@ -51,6 +51,7 @@
         "time-medium": "Wakati (kati)",
         "time-short": "Wakati (mfupi)"
       },
+      "iconography-description": "Inaonyesha maktaba inayoweza kutafutwa ya icons zinazopatikana kwa matumizi katika programu",
       "internationalization-description": "Inayo mifano ya huduma za utandawazi zinazopatikana katika programu",
       "theming": {
         "app-theme-colors": "Rangi ya mandhari ya maombi",
@@ -96,6 +97,7 @@
     "database": "Hifadhidata",
     "debugging": "Debugging",
     "home": "Nyumbani",
+    "iconography": "Iconografia",
     "internationalization": "I18N: Utandawazi",
     "sandbox": "Sandbox",
     "theming": "Kuweka",

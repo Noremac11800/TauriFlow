@@ -51,6 +51,7 @@
         "time-medium": "الوقت (متوسط)",
         "time-short": "الوقت (قصير)"
       },
+      "iconography-description": "يعرض مكتبة قابلة للبحث من الرموز المتاحة للاستخدام في التطبيق",
       "internationalization-description": "يحتوي على أمثلة لميزات التدويل المتاحة في التطبيق",
       "theming": {
         "app-theme-colors": "ألوان موضوع التطبيق",
@@ -96,6 +97,7 @@
     "database": "قاعدة البيانات",
     "debugging": "تصحيح الأخطاء",
     "home": "بيت",
+    "iconography": "الايقونية",
     "internationalization": "I18N: التدويل",
     "sandbox": "صندوق الرمل",
     "theming": "هم",

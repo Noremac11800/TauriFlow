@@ -51,6 +51,7 @@
         "time-medium": "समय (मध्यम)",
         "time-short": "समय (छोटा)"
       },
+      "iconography-description": "एप्लिकेशन में उपयोग के लिए उपलब्ध आइकनों की खोज योग्य लाइब्रेरी प्रदर्शित करता है",
       "internationalization-description": "आवेदन में उपलब्ध अंतर्राष्ट्रीयकरण सुविधाओं के उदाहरण शामिल हैं",
       "theming": {
         "app-theme-colors": "अनुप्रयोग थीम रंग",
@@ -96,6 +97,7 @@
     "database": "डेटाबेस",
     "debugging": "डिबगिंग",
     "home": "घर",
+    "iconography": "शास्त्र",
     "internationalization": "I18N: अंतर्राष्ट्रीयकरण",
     "sandbox": "सैंडबॉक्स",
     "theming": "थीम",

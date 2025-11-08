@@ -51,6 +51,7 @@
         "time-medium": "時間（媒介）",
         "time-short": "時間（短）"
       },
+      "iconography-description": "顯示可在應用程序中使用的可搜索圖標庫",
       "internationalization-description": "包含應用程序中可用的國際化功能的示例",
       "theming": {
         "app-theme-colors": "應用主題顏色",
@@ -96,6 +97,7 @@
     "database": "資料庫",
     "debugging": "偵錯",
     "home": "家",
+    "iconography": "圖像學",
     "internationalization": "I18N：國際化",
     "sandbox": "沙箱",
     "theming": "主題",

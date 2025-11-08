@@ -51,6 +51,7 @@
         "time-medium": "Zeit (mittel)",
         "time-short": "Zeit (kurz)"
       },
+      "iconography-description": "Zeigt eine durchsuchbare Bibliothek mit Symbolen an, die zur Verwendung in der Anwendung verfügbar sind",
       "internationalization-description": "Enthält Beispiele für die in der Anwendung verfügbaren Internationalisierungsmerkmale",
       "theming": {
         "app-theme-colors": "Anwendungsthemenfarben",
@@ -96,6 +97,7 @@
     "database": "Datenbank",
     "debugging": "Debuggen",
     "home": "Heim",
+    "iconography": "Ikonographie",
     "internationalization": "I18N: Internationalisierung",
     "sandbox": "Sandkasten",
     "theming": "Themen",

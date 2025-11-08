@@ -51,6 +51,7 @@
         "time-medium": "Waktu (sedang)",
         "time-short": "Waktu (pendek)"
       },
+      "iconography-description": "Menampilkan perpustakaan ikon yang dapat dicari dan tersedia untuk digunakan dalam aplikasi",
       "internationalization-description": "Berisi contoh fitur internasionalisasi yang tersedia dalam aplikasi",
       "theming": {
         "app-theme-colors": "Warna tema aplikasi",
@@ -96,6 +97,7 @@
     "database": "Database",
     "debugging": "Debugging",
     "home": "Rumah",
+    "iconography": "Ikonografi",
     "internationalization": "I18n: Internasionalisasi",
     "sandbox": "Bak pasir",
     "theming": "Tema",

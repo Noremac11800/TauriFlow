@@ -51,6 +51,7 @@
         "time-medium": "زمان (متوسط)",
         "time-short": "زمان (کوتاه)"
       },
+      "iconography-description": "یک کتابخانه قابل جستجو از نمادهای موجود برای استفاده در برنامه را نمایش می دهد",
       "internationalization-description": "شامل نمونه هایی از ویژگی های بین المللی موجود در برنامه",
       "theming": {
         "app-theme-colors": "رنگ تم برنامه",
@@ -96,6 +97,7 @@
     "database": "مجموعه پایگاه داده",
     "debugging": "اشکال زدایی",
     "home": "خانه",
+    "iconography": "شمایل نگاری",
     "internationalization": "i18n: بین المللی سازی",
     "sandbox": "جعبه ماسه",
     "theming": "مضمون",

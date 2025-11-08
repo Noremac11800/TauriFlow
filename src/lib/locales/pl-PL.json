@@ -51,6 +51,7 @@
         "time-medium": "Czas (medium)",
         "time-short": "Czas (krótki)"
       },
+      "iconography-description": "Wyświetla przeszukiwalną bibliotekę ikon dostępnych do użycia w aplikacji",
       "internationalization-description": "Zawiera przykłady funkcji internacjonalizacji dostępnych w aplikacji",
       "theming": {
         "app-theme-colors": "Kolory motywów aplikacji",
@@ -96,6 +97,7 @@
     "database": "Baza danych",
     "debugging": "Debugowanie",
     "home": "Dom",
+    "iconography": "Ikonografia",
     "internationalization": "I18N: internacjonalizacja",
     "sandbox": "Sandbox",
     "theming": "Tematyka",

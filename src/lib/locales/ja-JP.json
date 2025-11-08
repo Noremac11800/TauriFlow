@@ -51,6 +51,7 @@
         "time-medium": "時間（中）",
         "time-short": "時間（短い）"
       },
+      "iconography-description": "アプリケーションで使用できるアイコンの検索可能なライブラリを表示します",
       "internationalization-description": "アプリケーションで利用可能な国際化機能の例が含まれています",
       "theming": {
         "app-theme-colors": "アプリケーションテーマの色",
@@ -96,6 +97,7 @@
     "database": "データベース",
     "debugging": "デバッグ",
     "home": "家",
+    "iconography": "図像学",
     "internationalization": "I18N：国際化",
     "sandbox": "サンドボックス",
     "theming": "テーマ",

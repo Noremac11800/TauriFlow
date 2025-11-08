@@ -51,6 +51,7 @@
         "time-medium": "시간 (중간)",
         "time-short": "시간 (짧은)"
       },
+      "iconography-description": "응용 프로그램에서 사용할 수 있는 검색 가능한 아이콘 라이브러리를 표시합니다.",
       "internationalization-description": "응용 프로그램에서 이용할 수있는 국제화 기능의 예가 포함",
       "theming": {
         "app-theme-colors": "응용 프로그램 테마 색상",
@@ -96,6 +97,7 @@
     "database": "데이터 베이스",
     "debugging": "디버깅",
     "home": "집",
+    "iconography": "도상학",
     "internationalization": "I18N : 국제화",
     "sandbox": "모래 상자",
     "theming": "테마",

@@ -51,6 +51,7 @@
         "time-medium": "Tiempo (medio)",
         "time-short": "Tiempo (corto)"
       },
+      "iconography-description": "Muestra una biblioteca de iconos con capacidad de búsqueda disponibles para usar en la aplicación.",
       "internationalization-description": "Contiene ejemplos de las funciones de internacionalización disponibles en la aplicación",
       "theming": {
         "app-theme-colors": "Colores del tema de la aplicación",
@@ -96,6 +97,7 @@
     "database": "Base de datos",
     "debugging": "Depuración",
     "home": "Hogar",
+    "iconography": "Iconografía",
     "internationalization": "i18n: internacionalización",
     "sandbox": "Salvadera",
     "theming": "Tema",
