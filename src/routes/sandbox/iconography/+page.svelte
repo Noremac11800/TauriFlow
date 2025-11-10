@@ -1,16 +1,13 @@
 <script lang="ts">
-  import {
-    Breadcrumb,
-    BreadcrumbItem,
-    Input,
-    Toggle,
-    Tooltip,
-  } from "flowbite-svelte";
+  import { Breadcrumb, BreadcrumbItem, Toggle, Tooltip } from "flowbite-svelte";
   import { RangeSlider } from "svelte-range-slider-pips";
   import { t } from "svelte-i18n";
   import * as Icons from "@lucide/svelte";
+  import { Search } from "@lucide/svelte";
   import type { Component } from "svelte";
   import { appSession } from "$lib/app-session.svelte";
+
+  import Input from "../components/Input.svelte";
 
   let searchQuery = $state("");
   let strokeWidth = $state(1.5);
@@ -115,13 +112,24 @@
 </div>
 
 <Input
+  placeholder={$t("page.sandbox.iconography.search", {
+    values: { iconCount: iconEntries.length },
+  })}
+  bind:value={searchQuery}
+>
+  {#snippet left()}
+    <Search color="var(--text3)" />
+  {/snippet}
+</Input>
+
+<!-- <Input
   type="text"
   placeholder={$t("page.sandbox.iconography.search", {
     values: { iconCount: iconEntries.length },
   })}
   class="w-full"
   bind:value={searchQuery}
-/>
+/> -->
 
 <div class="flex flex-wrap justify-center gap-4">
   {#each filteredIconEntries() as [name, Icon]}

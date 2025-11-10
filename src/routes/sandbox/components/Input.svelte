@@ -1,18 +1,15 @@
 <script lang="ts">
   import { CircleX } from "@lucide/svelte";
-  import type { Snippet } from "svelte";
+  import type { InputProps } from "./Input.svelte.ts";
 
   let {
-    value,
+    class: className,
+    value = $bindable<string>(),
     left,
     disabled = false,
+    placeholder = "",
     type = "text",
-  } = $props<{
-    value?: string;
-    left?: Snippet;
-    disabled?: boolean;
-    type?: string;
-  }>();
+  }: InputProps = $props();
 
   export function clear() {
     value = "";
@@ -20,7 +17,7 @@
 </script>
 
 <div
-  class="flex gap-4 border border-[var(--border1)] rounded items-center px-4 py-2 focus-within:ring-1 focus-within:ring-[var(--text1)]"
+  class="flex gap-4 border border-[var(--border1)] rounded items-center px-4 py-2 focus-within:ring-1 focus-within:ring-[var(--text1)] {className}"
 >
   {#if left}
     {@render left()}
@@ -30,6 +27,7 @@
     bind:value
     class="w-full border-none focus:ring-0! p-0 disabled:opacity-70 disabled:cursor-default"
     {disabled}
+    {placeholder}
   />
   {#if value && !disabled}
     <button
