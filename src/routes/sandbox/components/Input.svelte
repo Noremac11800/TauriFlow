@@ -25,7 +25,7 @@
   <input
     {type}
     bind:value
-    class="w-full border-none focus:ring-0! p-0 disabled:opacity-70 disabled:cursor-default"
+    class="w-full border-none focus:ring-0! p-0 disabled:opacity-70 disabled:cursor-default bg-transparent text-[var(--text1)]"
     {disabled}
     {placeholder}
   />

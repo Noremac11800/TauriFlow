@@ -55,7 +55,8 @@
   --text2: var(--color-gray-800);
   --text3: var(--color-gray-600);
   --text-inverse: var(--color-white);
-  --text-invariant: var(--color-white);
+  --text-invariant-white: var(--color-white);
+  --text-invariant-black: var(--color-black);
   --status-success1: var(--color-green-500);
   --status-success2: var(--color-green-600);
   --status-success3: var(--color-green-700);
@@ -68,6 +69,10 @@
   --status-info1: var(--color-blue-400);
   --status-info2: var(--color-blue-500);
   --status-info3: var(--color-blue-600);
+  --chip-red: var(--color-red-300);
+  --chip-green: var(--color-green-300);
+  --chip-blue: var(--color-blue-300);
+  --chip-yellow: var(--color-yellow-200);
 }
 
 .dark {
@@ -85,7 +90,8 @@
   --text2: var(--color-gray-200);
   --text3: var(--color-gray-400);
   --text-inverse: var(--color-black);
-  --text-invariant: var(--color-white);
+  --text-invariant-white: var(--color-white);
+  --text-invariant-black: var(--color-black);
   --status-success1: var(--color-green-400);
   --status-success2: var(--color-green-300);
   --status-success3: var(--color-green-200);
@@ -98,6 +104,10 @@
   --status-info1: var(--color-blue-300);
   --status-info2: var(--color-blue-200);
   --status-info3: var(--color-blue-100);
+  --chip-red: var(--color-red-300);
+  --chip-green: var(--color-green-300);
+  --chip-blue: var(--color-blue-300);
+  --chip-yellow: var(--color-yellow-100);
 }
 
 @font-face {
@@ -194,7 +204,7 @@ small,
 /* Buttons */
 /* ============================================================== */
 .brand-solid-button {
-  @apply bg-[var(--brand1)] text-[var(--text-invariant)] font-bold py-2 px-4 rounded transition-colors duration-100 cursor-pointer gap-2 flex items-center shadow;
+  @apply bg-[var(--brand1)] text-[var(--text-invariant-white)] font-bold py-2 px-4 rounded transition-colors duration-100 cursor-pointer gap-2 flex items-center shadow;
   @apply hover:bg-[var(--brand2)];
   @apply active:bg-[var(--brand3)];
   @apply disabled:opacity-70 disabled:cursor-default disabled:hover:bg-[var(--brand1)] disabled:active:bg-[var(--brand1)];
@@ -236,10 +246,10 @@ small,
 }
 
 .status-danger-solid-button {
-  @apply bg-[var(--status-danger1)] text-[var(--text-invariant)] font-bold py-2 px-4 rounded transition-colors duration-100 cursor-pointer gap-2 flex items-center;
-  @apply hover:bg-[var(--status-danger2)] hover:text-[var(--text-invariant)] hover:border-[var(--border2)];
-  @apply active:bg-[var(--status-danger3)] active:text-[var(--text-invariant)] active:border-[var(--border3)];
-  @apply disabled:opacity-70 disabled:text-[var(--text-invariant)] disabled:cursor-default disabled:hover:bg-[var(--status-danger1)] disabled:active:bg-[var(--status-danger1)];
+  @apply bg-[var(--status-danger1)] text-[var(--text-invariant-white)] font-bold py-2 px-4 rounded transition-colors duration-100 cursor-pointer gap-2 flex items-center;
+  @apply hover:bg-[var(--status-danger2)] hover:text-[var(--text-invariant-white)] hover:border-[var(--border2)];
+  @apply active:bg-[var(--status-danger3)] active:text-[var(--text-invariant-white)] active:border-[var(--border3)];
+  @apply disabled:opacity-70 disabled:text-[var(--text-invariant-white)] disabled:cursor-default disabled:hover:bg-[var(--status-danger1)] disabled:active:bg-[var(--status-danger1)];
 }
 
 .status-danger-outline-button {

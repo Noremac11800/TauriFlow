@@ -79,7 +79,7 @@
     document.documentElement.style.removeProperty("--text2");
     document.documentElement.style.removeProperty("--text3");
     document.documentElement.style.removeProperty("--text-inverse");
-    document.documentElement.style.removeProperty("--text-invariant");
+    document.documentElement.style.removeProperty("--text-invariant-white");
     document.documentElement.style.removeProperty("--status-success1");
     document.documentElement.style.removeProperty("--status-success2");
     document.documentElement.style.removeProperty("--status-success3");
@@ -107,7 +107,7 @@
     text2 = getNormalizedHexColor(getColor("--text2"));
     text3 = getNormalizedHexColor(getColor("--text3"));
     textInverse = getNormalizedHexColor(getColor("--text-inverse"));
-    textInvariant = getNormalizedHexColor(getColor("--text-invariant"));
+    textInvariant = getNormalizedHexColor(getColor("--text-invariant-white"));
     statusSuccess1 = getNormalizedHexColor(getColor("--status-success1"));
     statusSuccess2 = getNormalizedHexColor(getColor("--status-success2"));
     statusSuccess3 = getNormalizedHexColor(getColor("--status-success3"));
@@ -193,7 +193,7 @@
   {@render colorCircle("--text2")}
   {@render colorCircle("--text3")}
   {@render colorCircle("--text-inverse")}
-  {@render colorCircle("--text-invariant")}
+  {@render colorCircle("--text-invariant-white")}
   {@render colorCircle("--status-success1")}
   {@render colorCircle("--status-success2")}
   {@render colorCircle("--status-success3")}
@@ -341,9 +341,9 @@
       onColorChanged={(hex) => setColor("--text-inverse", hex)}
     />
     <ColorPickerInput
-      label="--text-invariant"
+      label="--text-invariant-white"
       bind:hex={textInvariant}
-      onColorChanged={(hex) => setColor("--text-invariant", hex)}
+      onColorChanged={(hex) => setColor("--text-invariant-white", hex)}
     />
   </TabItem>
   <TabItem
@@ -511,7 +511,7 @@
       --text2: {text2} <br />
       --text3: {text3} <br />
       --text-inverse: {textInverse} <br />
-      --text-invariant: {textInvariant} <br />
+      --text-invariant-white: {textInvariant} <br />
       --status-success1: {statusSuccess1} <br />
       --status-success2: {statusSuccess2} <br />
       --status-success3: {statusSuccess3} <br />
