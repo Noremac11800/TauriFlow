@@ -7,6 +7,9 @@
   } from "flowbite-svelte";
   import { t } from "svelte-i18n";
 
+  import Input from "./Input.svelte";
+  import { User, LockKeyhole } from "@lucide/svelte";
+
   let areButtonsDisabled = $state(false);
 </script>
 
@@ -23,6 +26,23 @@
 </Breadcrumb>
 
 <h1>{$t("page-title.components")}</h1>
+
+<Input />
+<Input value="This is the default value" disabled={areButtonsDisabled}>
+  {#snippet left()}
+    <User color="var(--text3)" />
+  {/snippet}
+</Input>
+<Input
+  value="This is the default value"
+  disabled={areButtonsDisabled}
+  type="password"
+>
+  {#snippet left()}
+    <LockKeyhole color="var(--text3)" />
+  {/snippet}
+</Input>
+
 <div class="flex items-center gap-2">
   <Checkbox bind:checked={areButtonsDisabled} />
   <span>Disable buttons</span>
