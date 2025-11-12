@@ -1,14 +1,10 @@
 <script lang="ts">
-  import {
-    Breadcrumb,
-    BreadcrumbItem,
-    Button,
-    Checkbox,
-  } from "flowbite-svelte";
+  import { Breadcrumb, BreadcrumbItem } from "flowbite-svelte";
   import { t } from "svelte-i18n";
+  import { User, LockKeyhole, ArrowRight } from "@lucide/svelte";
+  import { goto } from "$app/navigation";
 
   import Input from "./Input.svelte";
-  import { User, LockKeyhole, ArrowRight } from "@lucide/svelte";
 
   let areButtonsDisabled = $state(false);
 </script>
@@ -16,12 +12,13 @@
 {#snippet componentTile(
   componentName: string,
   componentDescription?: string,
-  chips?: string[]
+  chips?: string[],
+  route?: string
 )}
-  <div class="tile">
+  <button class="tile" onclick={() => (route ? goto(route) : null)}>
     <h4 class="self-start">{componentName}</h4>
     <p class="italic text-[var(--text3)]! text-sm!">{componentDescription}</p>
-    <div class="flex items-center justify-between gap-2">
+    <div class="w-full flex items-center justify-between gap-2">
       {#if chips}
         <div class="flex flex-wrap gap-2">
           {#each chips as chip}
@@ -48,7 +45,7 @@
       {/if}
       <ArrowRight size="24" class="self-end" color="var(--text1)" />
     </div>
-  </div>
+  </button>
 {/snippet}
 
 <Breadcrumb>
@@ -84,7 +81,8 @@
   {@render componentTile(
     "Button",
     "Buttons are used to trigger actions or events when clicked",
-    ["Input"]
+    ["Input"],
+    "/sandbox/components/button"
   )}
   {@render componentTile(
     "Drawer",
@@ -128,38 +126,6 @@
     <LockKeyhole color="var(--text3)" />
   {/snippet}
 </Input>
-
-<div class="flex items-center gap-2">
-  <Checkbox bind:checked={areButtonsDisabled} />
-  <span>Disable buttons</span>
-</div>
-<Button class="brand-solid-button" disabled={areButtonsDisabled}
-  >Brand Solid Button</Button
->
-<Button class="brand-outline-button" disabled={areButtonsDisabled}
-  >Brand Outline Button</Button
->
-<Button class="brand-transparent-button" disabled={areButtonsDisabled}
-  >Brand Transparent Button</Button
->
-<Button class="neutral-solid-button" disabled={areButtonsDisabled}
-  >Neutral Solid Button</Button
->
-<Button class="neutral-outline-button" disabled={areButtonsDisabled}
-  >Neutral Outline Button</Button
->
-<Button class="neutral-transparent-button" disabled={areButtonsDisabled}
-  >Neutral Transparent Button</Button
->
-<Button class="status-danger-solid-button" disabled={areButtonsDisabled}
-  >Status Danger Solid Button</Button
->
-<Button class="status-danger-outline-button" disabled={areButtonsDisabled}
-  >Status Danger Outline Button</Button
->
-<Button class="status-danger-transparent-button" disabled={areButtonsDisabled}
-  >Status Danger Transparent Button</Button
->
 
 <style>
   @import "tailwindcss";

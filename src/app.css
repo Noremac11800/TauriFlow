@@ -201,6 +201,10 @@ small,
   @apply text-sm text-[var(--text3)];
 }
 
+button {
+  @apply text-left;
+}
+
 /* Buttons */
 /* ============================================================== */
 .brand-solid-button {
