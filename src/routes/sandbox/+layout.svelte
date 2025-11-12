@@ -14,7 +14,7 @@
   }
 </script>
 
-<Breadcrumb>
+<Breadcrumb olClass="flex flex-wrap">
   <BreadcrumbItem home homeClass="text-lg" href="/"
     >{$t("page-title.home")}</BreadcrumbItem
   >
