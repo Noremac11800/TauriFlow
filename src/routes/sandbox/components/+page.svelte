@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { Breadcrumb, BreadcrumbItem } from "flowbite-svelte";
   import { t } from "svelte-i18n";
   import { User, LockKeyhole, ArrowRight } from "@lucide/svelte";
   import { goto } from "$app/navigation";
@@ -47,18 +46,6 @@
     </div>
   </button>
 {/snippet}
-
-<Breadcrumb>
-  <BreadcrumbItem home homeClass="text-lg" href="/"
-    >{$t("page-title.home")}</BreadcrumbItem
-  >
-  <BreadcrumbItem linkClass="text-lg" href="/sandbox"
-    >{$t("page-title.sandbox")}</BreadcrumbItem
-  >
-  <BreadcrumbItem spanClass="text-lg! text-[var(--text3)]! cursor-default!">
-    {$t("page-title.components")}
-  </BreadcrumbItem>
-</Breadcrumb>
 
 <h1>{$t("page-title.components")}</h1>
 

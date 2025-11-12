@@ -1,15 +1,7 @@
 <script lang="ts">
   import { contrastRatio, getContrastColor } from "$lib/color-helpers";
   import { openUrl } from "@tauri-apps/plugin-opener";
-  import {
-    Breadcrumb,
-    BreadcrumbItem,
-    Button,
-    Hr,
-    Input,
-    InputAddon,
-    Label,
-  } from "flowbite-svelte";
+  import { Button, Hr, Input, InputAddon, Label } from "flowbite-svelte";
   import * as Icons from "flowbite-svelte-icons";
   import { onMount } from "svelte";
   import ColorPicker, {
@@ -51,18 +43,6 @@
     }
   });
 </script>
-
-<Breadcrumb>
-  <BreadcrumbItem home homeClass="text-lg" href="/"
-    >{$t("page-title.home")}</BreadcrumbItem
-  >
-  <BreadcrumbItem linkClass="text-lg" href="/sandbox"
-    >{$t("page-title.sandbox")}</BreadcrumbItem
-  >
-  <BreadcrumbItem spanClass="text-lg! text-[var(--text3)]! cursor-default!">
-    {$t("page-title.wcag-accessibility")}
-  </BreadcrumbItem>
-</Breadcrumb>
 
 <h1>{$t("page-title.wcag-accessibility")}</h1>
 

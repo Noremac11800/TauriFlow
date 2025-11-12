@@ -1,7 +1,5 @@
 <script lang="ts">
   import {
-    Breadcrumb,
-    BreadcrumbItem,
     Button,
     Input,
     Label,
@@ -72,18 +70,6 @@
     select();
   });
 </script>
-
-<Breadcrumb>
-  <BreadcrumbItem home homeClass="text-lg" href="/"
-    >{$t("page-title.home")}</BreadcrumbItem
-  >
-  <BreadcrumbItem linkClass="text-lg" href="/sandbox"
-    >{$t("page-title.sandbox")}</BreadcrumbItem
-  >
-  <BreadcrumbItem spanClass="text-lg! text-[var(--text3)]! cursor-default!">
-    {$t("page-title.database")}
-  </BreadcrumbItem>
-</Breadcrumb>
 
 <h1>{$t("page-title.database")}</h1>
 <Button class="brand-solid-button gap-2" onclick={() => select()}>

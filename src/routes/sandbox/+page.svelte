@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { Breadcrumb, BreadcrumbItem } from "flowbite-svelte";
   import * as Icons from "flowbite-svelte-icons";
   import type { Component } from "svelte";
   import { goto } from "$app/navigation";
@@ -40,15 +39,6 @@
     {/if}
   </div>
 {/snippet}
-
-<Breadcrumb>
-  <BreadcrumbItem home homeClass="text-lg" href="/"
-    >{$t("page-title.home")}</BreadcrumbItem
-  >
-  <BreadcrumbItem spanClass="text-lg! text-[var(--text3)]! cursor-default!">
-    {$t("page-title.sandbox")}
-  </BreadcrumbItem>
-</Breadcrumb>
 
 <h1>{$t("page-title.sandbox")}</h1>
 <div class="flex flex-col gap-4">

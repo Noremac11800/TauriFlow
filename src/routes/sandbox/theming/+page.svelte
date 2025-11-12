@@ -1,13 +1,6 @@
 <script lang="ts">
   import { parse, formatHex } from "culori";
-  import {
-    Accordion,
-    AccordionItem,
-    Breadcrumb,
-    BreadcrumbItem,
-    TabItem,
-    Tabs,
-  } from "flowbite-svelte";
+  import { Accordion, AccordionItem, TabItem, Tabs } from "flowbite-svelte";
   import { Tooltip } from "flowbite-svelte";
   import { scale } from "svelte/transition";
   import { appSession } from "$lib/app-session.svelte";
@@ -136,18 +129,6 @@
     <span class="font-mono text-[var(--text1)]!">{color}</span>
   </Tooltip>
 {/snippet}
-
-<Breadcrumb>
-  <BreadcrumbItem home homeClass="text-lg" href="/"
-    >{$t("page-title.home")}</BreadcrumbItem
-  >
-  <BreadcrumbItem linkClass="text-lg" href="/sandbox"
-    >{$t("page-title.sandbox")}</BreadcrumbItem
-  >
-  <BreadcrumbItem spanClass="text-lg! text-[var(--text3)]! cursor-default!">
-    {$t("page-title.theming")}
-  </BreadcrumbItem>
-</Breadcrumb>
 
 <h1>{$t("page-title.theming")}</h1>
 

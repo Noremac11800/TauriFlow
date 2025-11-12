@@ -1,7 +1,5 @@
 <script lang="ts">
   import {
-    Breadcrumb,
-    BreadcrumbItem,
     Button,
     Datepicker,
     Table,
@@ -30,18 +28,6 @@
     return new Date(0, 0, 0, hours, mins);
   }
 </script>
-
-<Breadcrumb>
-  <BreadcrumbItem home homeClass="text-lg" href="/"
-    >{$t("page-title.home")}</BreadcrumbItem
-  >
-  <BreadcrumbItem linkClass="text-lg" href="/sandbox"
-    >{$t("page-title.sandbox")}</BreadcrumbItem
-  >
-  <BreadcrumbItem spanClass="text-lg! text-[var(--text3)]! cursor-default!">
-    {$t("page-title.internationalization")}
-  </BreadcrumbItem>
-</Breadcrumb>
 
 <h1>{$t("page-title.internationalization")}</h1>
 

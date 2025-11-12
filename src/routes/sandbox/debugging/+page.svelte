@@ -2,7 +2,6 @@
   import { appLogDir } from "@tauri-apps/api/path";
   import { info, warn, error } from "@tauri-apps/plugin-log";
   import { onMount } from "svelte";
-  import { Breadcrumb, BreadcrumbItem } from "flowbite-svelte";
   import { readTextFile, writeTextFile } from "@tauri-apps/plugin-fs";
   import { path } from "@tauri-apps/api";
   import { revealItemInDir } from "@tauri-apps/plugin-opener";
@@ -48,18 +47,6 @@
     {/await}
   </div>
 {/snippet}
-
-<Breadcrumb>
-  <BreadcrumbItem home homeClass="text-lg" href="/"
-    >{$t("page-title.home")}</BreadcrumbItem
-  >
-  <BreadcrumbItem linkClass="text-lg" href="/sandbox"
-    >{$t("page-title.sandbox")}</BreadcrumbItem
-  >
-  <BreadcrumbItem spanClass="text-lg! text-[var(--text3)]! cursor-default!">
-    {$t("page-title.debugging")}
-  </BreadcrumbItem>
-</Breadcrumb>
 
 <h1>{$t("page-title.debugging")}</h1>
 
