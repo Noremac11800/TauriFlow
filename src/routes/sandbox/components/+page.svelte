@@ -118,8 +118,8 @@
   @import "tailwindcss";
 
   .tile {
-    @apply flex flex-col justify-between gap-2 border border-[var(--border1)] rounded p-4 max-w-[200px] bg-[var(--bg1)] cursor-pointer transition-all duration-100;
-    @apply hover:scale-101 hover:border-[var(--status-info1)];
-    @apply active:scale-99 active:border-[var(--status-info1)];
+    @apply flex flex-col justify-between gap-2 border border-[var(--border1)] rounded p-4 max-w-[180px] bg-[var(--bg1)] cursor-pointer transition-all duration-100;
+    @apply hover:scale-101 hover:border-[var(--brand1)];
+    @apply active:scale-99 active:border-[var(--brand1)];
   }
 </style>
