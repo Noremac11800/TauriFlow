@@ -17,7 +17,9 @@
 </script>
 
 <div
-  class="flex gap-4 border border-[var(--border1)] rounded items-center px-4 py-2 focus-within:ring-1 focus-within:ring-[var(--text1)] {className}"
+  class="flex gap-4 border border-[var(--border1)] rounded items-center px-4 py-2 focus-within:ring-1 focus-within:ring-[var(--text1)] {disabled
+    ? 'opacity-80'
+    : ''} {className}"
 >
   {#if left}
     {@render left()}

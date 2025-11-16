@@ -1,11 +1,7 @@
 <script lang="ts">
   import { t } from "svelte-i18n";
-  import { User, LockKeyhole, ArrowRight } from "@lucide/svelte";
+  import { ArrowRight } from "@lucide/svelte";
   import { goto } from "$app/navigation";
-
-  import Input from "./Input.svelte";
-
-  let areButtonsDisabled = $state(false);
 </script>
 
 {#snippet componentTile(
@@ -89,31 +85,22 @@
   {@render componentTile(
     "Input",
     "Inputs are used to capture and display user-entered text or data",
-    ["Input"]
+    ["Input"],
+    "/sandbox/components/input"
   )}
   {@render componentTile(
     "Popover",
     "Popovers are used to display contextual information in a popup area positioned relative to the trigger element",
     ["Overlay"]
   )}
+  {@render componentTile(
+    "Switch",
+    "Switches are used to toggle between two states",
+    ["Input"]
+  )}
 </div>
 
-<Input />
-<Input value="This is the default value" disabled={areButtonsDisabled}>
-  {#snippet left()}
-    <User color="var(--text3)" />
-  {/snippet}
-</Input>
-<Input
-  value="This is the default value"
-  disabled={areButtonsDisabled}
-  type="password"
->
-  {#snippet left()}
-    <LockKeyhole color="var(--text3)" />
-  {/snippet}
-</Input>
-
+<!-- svelte-ignore css_unused_selector-->
 <style>
   @import "tailwindcss";
 
