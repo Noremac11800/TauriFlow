@@ -96,7 +96,8 @@
   {@render componentTile(
     "Switch",
     "Switches are used to toggle between two states",
-    ["Input"]
+    ["Input"],
+    "/sandbox/components/switch"
   )}
 </div>
 
