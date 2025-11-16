@@ -2,7 +2,7 @@
   let {
     toggled = $bindable<boolean>(false),
     disabled = false,
-    trackOffClass = "border border-[var(--border1)] bg-[var(--bg2)]",
+    trackOffClass = "border border-[var(--bg2)] bg-[var(--bg2)]",
     trackOnClass = "border border-[var(--brand2)] bg-[var(--brand1)]",
     thumbOffClass = "border border-[var(--border1)] bg-[var(--fg)] translate-x-0",
     thumbOnClass = "border border-[var(--brand1)] bg-[var(--fg)] ltr:translate-x-[24px] rtl:translate-x-[-24px]",

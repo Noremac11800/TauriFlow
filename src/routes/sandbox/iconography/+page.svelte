@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Toggle, Tooltip } from "flowbite-svelte";
+  import { Tooltip } from "flowbite-svelte";
   import { RangeSlider } from "svelte-range-slider-pips";
   import { t } from "svelte-i18n";
   import * as Icons from "@lucide/svelte";
@@ -8,6 +8,7 @@
   import { appSession } from "$lib/app-session.svelte";
 
   import Input from "../components/Input.svelte";
+  import Switch from "../../../components/Switch.svelte";
 
   let searchQuery = $state("");
   let strokeWidth = $state(1.5);
@@ -95,7 +96,7 @@
   </div>
   <div class="flex flex-col">
     <span>{$t("page.sandbox.iconography.absolute-stroke-width")}</span>
-    <Toggle bind:checked={absoluteStrokeWidth} class="self-start" />
+    <Switch bind:toggled={absoluteStrokeWidth} />
   </div>
 </div>
 
