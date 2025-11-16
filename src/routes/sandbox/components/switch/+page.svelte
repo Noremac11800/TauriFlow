@@ -1,6 +1,4 @@
 <script lang="ts">
-  import { Checkbox } from "flowbite-svelte";
-  import { User, LockKeyhole } from "@lucide/svelte";
   import Switch from "../../../../components/Switch.svelte";
 
   let areSwitchesDisabled = $state(false);
