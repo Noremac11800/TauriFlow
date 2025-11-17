@@ -54,7 +54,8 @@
   {@render componentTile(
     "Avatar",
     "Avatars are used to display user profiles",
-    ["Display"]
+    ["Display"],
+    "/sandbox/components/avatar"
   )}
   {@render componentTile(
     "Badge",
