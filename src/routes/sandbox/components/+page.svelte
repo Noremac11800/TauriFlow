@@ -73,11 +73,6 @@
     ["Overlay"]
   )}
   {@render componentTile(
-    "Dropdown",
-    "Dropdowns are used to display a list or collection of choices",
-    ["Overlay", "Input"]
-  )}
-  {@render componentTile(
     "Dialog",
     "Dialogs are used to display additional content in a modal popup area",
     ["Overlay"]
@@ -87,6 +82,12 @@
     "Inputs are used to capture and display user-entered text or data",
     ["Input"],
     "/sandbox/components/input"
+  )}
+  {@render componentTile(
+    "Picker",
+    "Pickers are used to display a list or collection of choices",
+    ["Overlay", "Input"],
+    "/sandbox/components/picker"
   )}
   {@render componentTile(
     "Popover",
