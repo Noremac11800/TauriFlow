@@ -87,7 +87,7 @@
         <div
           class="flex items-center gap-2 bg-[var(--chip-green)] p-1 rounded-full px-2"
         >
-          <span class="text-sm!">{option}</span>
+          <span class="text-sm! text-[var(--text-invariant-black)]!">{option}</span>
         </div>
       {/snippet}
     </Picker>
@@ -141,7 +141,7 @@
         <div
           class="flex items-center gap-2 bg-[var(--chip-blue)] p-1 rounded-full px-2"
         >
-          <span class="text-sm!">{option}</span>
+          <span class="text-sm! text-[var(--text-invariant-black)]!">{option}</span>
           {#if !arePickersDisabled && option}
             <button
               class="neutral-transparent-button p-1! rounded-full!"
@@ -150,7 +150,7 @@
                 removeChip(option, picker6);
               }}
             >
-              <XIcon size="14" />
+              <XIcon size="14" color="var(--text-invariant-black)" />
             </button>
           {/if}
         </div>
