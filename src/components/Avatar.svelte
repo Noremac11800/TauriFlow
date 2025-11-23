@@ -33,6 +33,6 @@
   {:else if initialis}
     <span class="text-[{txtColor}]! text-[24px]!">{initialis}</span>
   {:else}
-    <UserRound color={txtColor} size="100%" absoluteStrokeWidth />
+    <UserRound color={txtColor} size="100%" strokeWidth="1.5" />
   {/if}
 </div>
