@@ -16,32 +16,38 @@
   <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
   <div
     role="button"
-    onkeydown={(e) => {
+    onkeydown={(e: KeyboardEvent) => {
       if (e.key === "Enter" || e.key === " ") {
         goto(route);
       }
     }}
     tabindex="0"
     onclick={() => goto(route)}
-    class="flex flex-col gap-2 bg-[var(--bg1)] border border-[var(--border1)] p-2 rounded-md hover:bg-[var(--bg1)] active:bg-[var(--bg2)] hover:border-[var(--brand2)] active:border-[var(--brand3)] transition-colors duration-200 cursor-pointer"
+    class="flex flex-col gap-4 bg-[var(--bg1)] border border-[var(--border1)] p-6 rounded-xl hover:shadow-lg hover:scale-[1.02] hover:border-[var(--brand2)] transition-all duration-200 cursor-pointer h-full group"
   >
-    <div class="flex gap-2 items-center">
-      <svelte:component
-        this={icon}
-        size="xl"
-        strokeWidth={1.5}
-        color="var(--text1)"
-      />
-      <span class="text-xl!">{$t(title)}</span>
+    <div class="flex gap-3 items-center">
+      <div
+        class="p-2 rounded-lg bg-[var(--bg2)] group-hover:bg-[var(--brand1)] group-hover:text-white transition-colors duration-200"
+      >
+        <svelte:component
+          this={icon}
+          size="xl"
+          strokeWidth={1.5}
+          class="text-[var(--text1)] group-hover:text-white transition-colors duration-200"
+        />
+      </div>
+      <span class="text-xl font-semibold">{$t(title)}</span>
     </div>
     {#if description}
-      <span class="text-sm text-[var(--text3)]!">{$t(description)}</span>
+      <span class="text-sm text-[var(--text3)] leading-relaxed">
+        {$t(description)}
+      </span>
     {/if}
   </div>
 {/snippet}
 
-<h1>{$t("page-title.sandbox")}</h1>
-<div class="flex flex-col gap-4">
+<h1 class="mb-6">{$t("page-title.sandbox")}</h1>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
   {@render topic(
     "page-title.components",
     "/sandbox/components",
