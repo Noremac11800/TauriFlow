@@ -9,12 +9,23 @@
   import { appSession } from "$lib/app-session.svelte";
   import { fly } from "svelte/transition";
   import { cubicOut } from "svelte/easing";
-  import { page } from "$app/stores";
-  import { beforeNavigate } from "$app/navigation";
+  import { page } from "$app/state";
+  import { beforeNavigate, afterNavigate } from "$app/navigation";
 
   let isLocaleReady = $state(false);
   let transitionDirection = $state(1); // 1 for forward, -1 for backward
   let currentDepth = $state(0);
+  let isNavigating = $state(false);
+  let transitionDuration = $state(600);
+
+  // Add/remove no-scroll class based on navigation state
+  $effect(() => {
+    if (isNavigating) {
+      document.documentElement.classList.add("no-scroll");
+    } else {
+      document.documentElement.classList.remove("no-scroll");
+    }
+  });
 
   // Calculate depth based on path segments
   function getDepth(path: string) {
@@ -23,6 +34,7 @@
   }
 
   beforeNavigate((navigation) => {
+    isNavigating = true;
     const to = navigation.to?.url.pathname ?? "/";
     const from = navigation.from?.url.pathname ?? "/";
 
@@ -39,8 +51,15 @@
     currentDepth = toDepth;
   });
 
+  afterNavigate(() => {
+    // Small delay to ensure the transition has completed
+    setTimeout(() => {
+      isNavigating = false;
+    }, transitionDuration);
+  });
+
   onMount(async () => {
-    currentDepth = getDepth($page.url.pathname);
+    currentDepth = getDepth(page.url.pathname);
     await setupI18n();
     waitLocale().then(() => {
       isLocaleReady = true;
@@ -55,16 +74,16 @@
 
 {#if isLocaleReady && appSession.loaded}
   <div class="relative h-full w-full overflow-hidden">
-    {#key $page.url.pathname}
+    {#key page.url.pathname}
       <main
         in:fly={{
           x: transitionDirection * 300,
-          duration: 400,
+          duration: transitionDuration,
           easing: cubicOut,
         }}
         out:fly={{
           x: transitionDirection * -300,
-          duration: 400,
+          duration: transitionDuration,
           easing: cubicOut,
         }}
         class="absolute inset-0 overflow-auto bg-[var(--bg1)]"
@@ -77,3 +96,10 @@
     {/key}
   </div>
 {/if}
+
+<style>
+  /* Disable scrolling during navigation */
+  :global(.no-scroll main) {
+    overflow: hidden !important;
+  }
+</style>
