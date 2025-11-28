@@ -7,7 +7,7 @@
   import type { Component } from "svelte";
   import { appSession } from "$lib/app-session.svelte";
 
-  import Input from "../components/Input.svelte";
+  import Input from "../../../components/Input.svelte";
   import Switch from "../../../components/Switch.svelte";
 
   let searchQuery = $state("");

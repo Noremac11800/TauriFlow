@@ -1,13 +1,13 @@
 <script lang="ts">
-  import { Checkbox } from "flowbite-svelte";
   import { User, LockKeyhole } from "@lucide/svelte";
-  import Input from "../Input.svelte";
+  import Input from "../../../../components/Input.svelte";
+  import Switch from "../../../../components/Switch.svelte";
 
   let areInputsDisabled = $state(false);
 </script>
 
-<div class="flex items-center gap-2">
-  <Checkbox bind:checked={areInputsDisabled} />
+<div class="flex items-center gap-4">
+  <Switch bind:toggled={areInputsDisabled} />
   <span>Disable inputs</span>
 </div>
 

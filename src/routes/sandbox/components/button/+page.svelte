@@ -1,10 +1,11 @@
 <script lang="ts">
-  import { Checkbox, Button } from "flowbite-svelte";
+  import { Button } from "flowbite-svelte";
+  import Switch from "../../../../components/Switch.svelte";
   let areButtonsDisabled = $state(false);
 </script>
 
-<div class="flex items-center gap-2">
-  <Checkbox bind:checked={areButtonsDisabled} />
+<div class="flex items-center gap-4">
+  <Switch bind:toggled={areButtonsDisabled} />
   <span>Disable buttons</span>
 </div>
 <Button class="brand-solid-button" disabled={areButtonsDisabled}
