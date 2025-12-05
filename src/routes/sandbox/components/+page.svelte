@@ -76,7 +76,8 @@
   {@render componentTile(
     "Dialog",
     "Dialogs are used to display additional content in a modal popup area",
-    ["Overlay"]
+    ["Overlay"],
+    "/sandbox/components/dialog"
   )}
   {@render componentTile(
     "Input",
